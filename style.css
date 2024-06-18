@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #798777;
+}
+
+.navbar{
+	width: 100%;
+	margin: auto;
+	padding: 15px;
+	height: 70px;
+	display: flex;
+	background-color: #F8EDE3;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	padding-top: 5px;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: #222831;
+	text-transform: uppercase;
+}
+
+.Logo1{
+    color: #798777;
+    font-style: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+
+.Logo2{
+    color: #A2B29F;
+    font-style: 'Poppins' sans-serif;
+    font-size: 30px;
+    margin-left: -920px;
+    font-weight: bolder;
+}
+
+h1.judul{
+	font-size: 40px;
+	padding-top: 40px;
+	font-style: 'Poppins', sans-serif;
+	text-align: center;
+	color: #F8EDE3;
+}
+
+.line-index{
+	width: 480px;
+    height: 4px;
+    background: #A2B29F;
+    margin: 10px auto;
+    border-radius: 5px;
+	margin-bottom: 87px;
+}
+
+.containerlaporan{
+    background-color: #F8EDE3;
+	border-radius: 20px;
+	width: 600px;
+    margin-bottom: 87px;
+}
+
+
+.containerlaporan .lineTanaman{
+    padding: 30px;
+    font-family: monospace;
+}
+
+.containerlaporan .lineTanaman table td{
+    padding: 10px 0;
+	border-bottom: 1px solid #AEC0CE;
+	color: #222831;
+}
+
+.containerlaporan .lineTanaman table td:nth-child(2){
+    text-align: right;
+}
+
+.btnEdit{
+    width: 150px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	background: #798777;
+	color: #F8EDE3;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	padding-left: 2px;
+}
+
+.login{
+    background-color: #F8EDE3;
+	border-radius: 30px;
+	width: 550px;
+	margin-top: 60px;
+}
+
+.namaTanaman{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.pmNutrisi{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.pmPh{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.pmSuhu{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.header-container-login{
+	display: flex;	
+}
+
+.body-container-login{
+	padding-left: 96px;
+	padding-bottom: 15px;
+}
+
+.btnSubmit{
+    width: 150px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 20px 10px;
+    margin-left: 90px;
+	border-radius: 25px;
+	font-weight: bold;
+	background: #798777;
+	color: #F8EDE3;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	padding-left: 2px;
+}
+
+.btnEdit{
+    width: 150px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	background: #798777;
+	color: #F8EDE3;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	padding-left: 2px;
+}
+
+.header-login1{
+    padding-top: 23px;
+	padding-left: 20px;	
+	color: #798777;
+	font-weight: bolder;
+	font-family: 'Poppins', sans-serif;
+    margin-left: 115px;
+}
+
+.header-login2{
+    padding-top: 23px;
+	padding-left: 20px;	
+	color: #A2B29F;
+	font-weight: bolder;
+	font-family: 'Poppins', sans-serif;
+}
+
+.username{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.password{
+    width: 337px;
+	height: 32px;
+	border-radius: 10px;
+	border: #798777;
+	border: 2px solid #798777;
+	padding: 10px;
+}
+
+.line-login{
+    width: 480px;
+    height: 4px;
+    background: #798777;
+    margin: 10px auto;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.btnLogin{
+    width: 150px;
+	padding: 10px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	background: #798777;
+	color: #F8EDE3;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	padding-left: 2px;
+    margin-left: 90px;
+}
+
+.p{
+	font-size: 40px;
+	padding-top: 40px;
+	padding-left: 20px;
+	font-style: 'Poppins', sans-serif;
+	color: #F8EDE3;
+}
+
+.biasa{
+	color: #798777;
+	font-weight: 300;
+}
+
+th{
+	font-weight: bold;
+	background-color: #A2B29F;
+}
+
+td{
+	background-color: #F8EDE3;
+	font-weight: 300;
+}
+
+a{
+	color: #798777;
+}
